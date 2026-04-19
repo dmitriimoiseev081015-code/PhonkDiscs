@@ -1,35 +1,33 @@
 {
   "schemaVersion": 1,
   "id": "phonkdiscs",
-  "version": "${version}",
-  "name": "PhonkDiscs",
-  "description": "Fonk discs mod for Minecraft 1.21.11 Fabric Version 1.0",
-  "authors": [],
-  "contact": {},
-  "license": "All-Rights-Reserved",
+  "version": "1.0.1",
+  "name": "Phonk Discs",
+  "description": "11 Phonk music discs for Minecraft 1.21.* Fabric Version",
+  "authors": [
+    "dmitriimoiseev081015-code"
+  ],
+  "contact": {
+    "homepage": "https://github.com/dmitriimoiseev081015-code/PhonkDiscs",
+    "sources": "https://github.com/dmitriimoiseev081015-code/PhonkDiscs"
+  },
+  "license": "MIT",
   "icon": "assets/phonkdiscs/icon.png",
   "environment": "*",
   "entrypoints": {
-    "fabric-datagen": [
-      "com.dimon.phonkdiscs.phonkdiscs.client.PhonkdiscsDataGenerator"
+    "main": [
+      "com.dimon.phonkdiscs.phonkdiscs.PhonkDiscsMod"
     ],
     "client": [
       "com.dimon.phonkdiscs.phonkdiscs.client.PhonkdiscsClient"
     ],
-    "main": [
-      "com.dimon.phonkdiscs.phonkdiscs.PhonkDiscsMod"
+    "fabric-datagen": [
+      "com.dimon.phonkdiscs.phonkdiscs.client.PhonkdiscsDataGenerator"
     ]
   },
-  "mixins": [
-    "phonkdiscs.mixins.json",
-    {
-      "config": "phonkdiscs.client.mixins.json",
-      "environment": "client"
-    }
-  ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
+    "fabricloader": ">=0.15.0",
     "fabric-api": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": ">=1.21"
   }
 }

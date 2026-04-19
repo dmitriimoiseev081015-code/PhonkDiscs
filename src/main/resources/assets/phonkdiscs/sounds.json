@@ -1,0 +1,90 @@
+{
+  "music_disc.phonk_1": {
+    "sounds": [
+      {
+        "name": "phonkdiscs:music/phonk_1",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.phonk_2": {
+    "sounds": [
+      {
+        "name": "phonkdiscs:music/phonk_2",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.phonk_3": {
+    "sounds": [
+      {
+        "name": "phonkdiscs:music/phonk_3",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.phonk_4": {
+    "sounds": [
+      {
+        "name": "phonkdiscs:music/phonk_4",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.phonk_5": {
+    "sounds": [
+      {
+        "name": "phonkdiscs:music/phonk_5",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.phonk_6": {
+    "sounds": [
+      {
+        "name": "phonkdiscs:music/phonk_6",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.phonk_7": {
+    "sounds": [
+      {
+        "name": "phonkdiscs:music/phonk_7",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.phonk_8": {
+    "sounds": [
+      {
+        "name": "phonkdiscs:music/phonk_8",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.phonk_9": {
+    "sounds": [
+      {
+        "name": "phonkdiscs:music/phonk_9",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.phonk_10": {
+    "sounds": [
+      {
+        "name": "phonkdiscs:music/phonk_10",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.phonk_11": {
+    "sounds": [
+      {
+        "name": "phonkdiscs:music/phonk_11",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "phonkdiscs",
+  "version": "${version}",
+  "name": "PhonkDiscs",
+  "description": "Fonk discs mod for Minecraft 1.21.11 Fabric Version 1.0",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/phonkdiscs/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.dimon.phonkdiscs.phonkdiscs.client.PhonkdiscsDataGenerator"
+    ],
+    "client": [
+      "com.dimon.phonkdiscs.phonkdiscs.client.PhonkdiscsClient"
+    ],
+    "main": [
+      "com.dimon.phonkdiscs.phonkdiscs.PhonkDiscsMod"
+    ]
+  },
+  "mixins": [
+    "phonkdiscs.mixins.json",
+    {
+      "config": "phonkdiscs.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sound_event": "phonkdiscs:music_disc.phonk_2",
+  "description": {
+    "translate": "item.phonkdiscs.music_disc_phonk_2.desc"
+  },
+  "length_in_seconds": 120.0,
+  "comparator_output": 2
+}
